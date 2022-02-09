@@ -23,4 +23,57 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: darkgreen;
+  height: 100vh;
+}
+
+main {
+  border: 1px solid red;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid limegreen;
+}
+
+#status {
+  margin-left: auto;
+  padding: 5px;
+}
+
+#brand {
+  display: none;
+}
+
+#occupation {
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+}
+
+#contact {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+}
+
+#contact p{
+  width: 50%;
+  border: 1px solid blue;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+  background-color: limegreen;
+
+}
+#contact p:first-child{
+  background-color: #309230;
 }
