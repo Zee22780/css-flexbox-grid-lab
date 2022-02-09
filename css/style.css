@@ -90,4 +90,34 @@ img {
       "img brand"
       "contact offer";
   }
+  #status {
+    grid-area: status;
+    margin-right: auto;
+    width: 100%;
+    border: 1px solid red;
+  }
+  #name {
+    grid-area: name;
+  }
+  img {
+    grid-area: img;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  #occupation {
+    grid-area: occupation;
+  }
+  #brand {
+    grid-area: brand;
+    display: flex;
+    border-left: 2px solid green;
+  }
+  
+  #contact {
+    grid-area: contact;
+  }
+  #offer {
+    grid-area: offer;
+  }
+
 }
