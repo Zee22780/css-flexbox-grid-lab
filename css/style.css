@@ -32,7 +32,6 @@ body {
 }
 
 main {
-  border: 1px solid red;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -72,13 +71,11 @@ img {
 
 #contact {
   display: flex;
-  border: 1px solid red;
   width: 100%;
 }
 
 #contact p{
   width: 50%;
-  border: 1px solid blue;
   text-align: center;
   padding: 25px;
   margin: 0;
@@ -106,16 +103,15 @@ img {
     margin-right: auto;
     width: 100%;
     height: 100%;
-    border: 1px solid red;
   }
   #name {
     grid-area: name;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
     background-color: gainsboro;
     font-size: 25px;
-    padding: 5px 10px;
+    padding: 15px 0 0 10px;
+    align-items: center;
   }
   img {
     grid-area: img;
@@ -132,6 +128,7 @@ img {
     font-size: 20px;
     color:#8f8b8b;
     padding: 5px 10px;
+    line-height: 10px;
   }
   #brand {
     grid-area: brand;
@@ -143,6 +140,7 @@ img {
     font-size: 18px;
     color:#a5a0a0;
     padding: 5px 10px;
+    line-height: 30px;
   }
   
   #contact {
@@ -152,7 +150,7 @@ img {
   }
 
   #contact p{
-    
+    font-size: 30px;
   }
 
   #offer {
@@ -162,6 +160,7 @@ img {
     background-color: gainsboro;
     font-size: 18px;
     padding: 5px 10px;
+    line-height: 10px;
   }
 
 }
